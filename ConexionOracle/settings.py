@@ -91,8 +91,6 @@ DATABASES = {
     'PASSWORD': config('BD_PASSWORD'),
   }
 }
-
-export LD_LIBRARY_PATH=/opt/oracle/instantclient_19_9:$LD_LIBRARY_PATH
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
